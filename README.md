@@ -24,7 +24,7 @@ dislikes abstractions with one implementation, 400-line PRs, "it works locally"
 
 ### `~/what-i-do`
 
-I build the unglamorous half of software — the API that stays up, the migration
+I build the unglamorous half of software: the API that stays up, the migration
 that doesn't lose a row, the money math that reconciles. Then I build the other
 half too, because someone has to.
 
@@ -36,15 +36,15 @@ them, and enough infrastructure to keep both honest.
 ```
 ▸ read first        trace the whole flow before touching a line
 ▸ root cause        fix it once, where every caller routes through
-▸ prove it          a failing test, a live browser, a real DB row — not a vibe
+▸ prove it          a failing test, a live browser, a real DB row. not a vibe
 ▸ smallest diff     the best code is the code I didn't write
 ▸ upstream it       found the bug in someone's library? send the patch
 ```
 
 ### `~/open-source`
 
-Merged into [gofiber/fiber](https://github.com/gofiber/fiber) — an Express-style
-Go web framework, 40k stars — both in its HTTP client:
+Merged into [gofiber/fiber](https://github.com/gofiber/fiber), an Express-style
+Go web framework with 40k stars. Both in its HTTP client:
 
 ```
 #4625  path parameters could restructure the request they were substituted into.
@@ -59,7 +59,7 @@ Go web framework, 40k stars — both in its HTTP client:
 Open, in review:
 
 ```
-caddyserver/caddy #7956   fastcgi returned a bare 411 for a chunked body — approved
+caddyserver/caddy #7956   fastcgi returned a bare 411 for a chunked body (approved)
 labstack/echo     #3072   BodyLimit handed back 50 bytes against a 5 byte limit
 rivo/tview        #1165   Escape() left non-ASCII tags unprotected, dropping a char
 charmbracelet/x   ×7      grapheme clusters split across writes, a parser panic
