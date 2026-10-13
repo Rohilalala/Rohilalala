@@ -16,7 +16,7 @@ aditya rohilla
 $ cat ~/.profile
 role     engineer. backend by instinct, full-stack when the job needs it.
 langs    go · typescript · python · swift · sql
-upstream 20 PRs merged into 11 projects · oras-go · prometheus · thanos · caddy · fiber
+upstream 16 PRs merged into 9 projects · oras-go · prometheus · thanos · caddy · fiber
 likes    terminals, protocols, small diffs, tests that fail first
 dislikes abstractions with one implementation, 400-line PRs, "it works locally"
 ```
